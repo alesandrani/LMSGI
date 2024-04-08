@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function cambiarColorVerdeH1(){
+            //las variables en JS se crean con la palabra "let"
+            //Recordemos que todas las etiquetas se convierten a objetos
+            //en el llmado arbol DOM.
+            // podemos acceder a cualquiera de estos objetos mediante funciones JS
+            //getElementById para acceder con el id del elemento
+            let h1 = document.getElementById("h1Color");
+            h1.style.backgroundColor ="green"
+        }
+
+        function cambiarColorAmarilloH1(){
+            //desde las ultimas versiones del JS los navegadores cren automaticamente variables
+            //para acceder a todos los elementos del arbol DOM
+            //e nombre de dichas variables es el valor del atributo ID
+            h1Color.style.backgroundColor = "yellow"
+        }
+
+        function cambiarColor(){
+            if(h1Color.style.backgroundColor== "green"){
+                cambiarColorAmarilloH1()
+            }else{
+                cambiarColorVerdeH1()
+            }
+        }
+    </script>
+</head>
+<body>
+    <!--ponemos el id al h1 para poder acceder a en la funcion-->
+    <h1 id="h1Color"> Texto a cambiar de color</h1>
+    <button onclick="cambiarColorVerdeH1()">Pulsa para cambiar el color a verde</button>
+    <button onclick="cambiarColorAmarilloH1()">Pulsa amarillo</button>
+    <button onclick="cambiarColor()">cada vez que pulses cambio de color</button>
+</body>
+</html>

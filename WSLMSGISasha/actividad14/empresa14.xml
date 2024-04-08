@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa pais="España" NIF="123456789" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="actividad14.xsd">
+    <nombre>EmpresaXYZ</nombre>
+        <capitalSocial>
+        <moneda>euros</moneda>
+        <valor>23.67</valor>
+    </capitalSocial>
+    <direccion>
+        <tipoVia>calle</tipoVia>
+        <nombreVia>Principal</nombreVia>
+        <CP>28001</CP>
+        <pais>ESPAÑA</pais>
+    </direccion>
+    <empleados>
+        <empleado DNI="48796335">
+            <nombre>Juan</nombre>
+            <apellidos>Pérez Gómez</apellidos>
+            <extranjero>false</extranjero>
+            <fechaNacimiento>1990-05-15</fechaNacimiento>
+            <salario>3200</salario>
+                        <direccion>
+                <tipoVia>calle</tipoVia>
+                <nombreVia>Principal</nombreVia>
+                <CP>28001</CP>
+                <pais>ESPAÑA</pais>
+            </direccion>
+        </empleado>
+        <empleado DNI="12345678">
+            <nombre>Marta</nombre>
+            <apellidos>Ruiz López</apellidos>
+            <extranjero>false</extranjero>
+            <fechaNacimiento>1972-12-10</fechaNacimiento>
+            <salario>4000</salario>
+                        <direccion>
+                <tipoVia>plaza</tipoVia>
+                <nombreVia>Mayor</nombreVia>
+                <CP>28002</CP>
+                <pais>ESPAÑA</pais>
+            </direccion>
+            <casado/>
+        </empleado>
+    </empleados>
+</empresa>

@@ -1,0 +1,50 @@
+{
+    "videojuego": {
+        "-id": "1",
+        "nombre": " The Last Of Us ",
+        "fecha_de_creacion": " 14 de junio 2013",
+        "nota": " 10 ",
+        "programadores": {
+            "programador": [
+                {
+                    "-id": "2",
+                    "nombre": "Travis McIntosh ",
+                    "DNI": " 125898R ",
+                    "fecha_de_nacimiento": "15.06.1987",
+                    "direccion": {
+                        "tipo_de_via": "  qwerty  ",
+                        "numero": " 21 ",
+                        "codigo_postal": " 26998 ",
+                        "pais": "Estados Unidos"
+                    }
+                },
+                {
+                    "-id": "3",
+                    "nombre": "Jason Gregory ",
+                    "DNI": "121848P ",
+                    "fecha_de_nacimiento": " 26.03.1885 ",
+                    "direccion": {
+                        "tipo_de_via": " nomelase ",
+                        "numero": " 12 ",
+                        "codigo_postal": " 26989 ",
+                        "pais": "Estados Unidos"
+                    }
+                }
+            ]
+        },
+        "compania": {
+            "-id": "36",
+            "nombre": "Naughty Dog",
+            "NIF": "12345678B",
+            "direccion": {
+                "tipo_via": "Avenida",
+                "nombre": "weteh 456",
+                "codigo_postal": "54321",
+                "pais": "Estados Unidos"
+            }
+        },
+        "pagina_web": {
+            "#cdata-section": {}
+        }
+    }
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="empresa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string" />
+                <xs:element name="capitalSocial">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="moneda">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="euros" />
+                                        <xs:enumeration value="dolares" />
+                                        <xs:enumeration value="yenes" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="valor" type="xs:double" />
+                        </xs:sequence>
+                        <xs:attribute name="min" type="xs:double" default="3000" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="direccion">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tipoVia" type="xs:string" />
+                            <xs:element name="nombreVia" type="xs:string" />
+                            <xs:element name="CP" type="xs:string" />
+                            <xs:element name="pais" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="empleados">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="empleado" type="empleado" minOccurs="1"
+                                maxOccurs="unbounded" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="NIF" type="xs:integer" />
+            <xs:attribute name="pais" type="xs:string" fixed="España" />
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="empleado">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string" />
+            <xs:element name="apellidos" type="xs:string" />
+            <xs:element name="extranjero" type="xs:boolean" />
+            <xs:element name="fechaNacimiento" type="xs:date" />
+            <xs:element name="salario" type="xs:integer" />
+            <xs:element name="direccion" type="direccionTipo" />
+            <xs:element name="casado" minOccurs="0">
+                <xs:complexType />
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="DNI" type="xs:integer" />
+        <xs:attribute name="fecha_de_creacion" type="xs:date" />
+    </xs:complexType>
+    <xs:complexType name="direccionTipo">
+        <xs:sequence>
+            <xs:element name="tipoVia" type="xs:string" />
+            <xs:element name="nombreVia" type="xs:string" />
+            <xs:element name="CP" type="xs:string" />
+            <xs:element name="pais" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

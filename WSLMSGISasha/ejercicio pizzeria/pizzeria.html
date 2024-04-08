@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedido de pizza</title>
+</head>
+
+<body>
+    <h2>Pedido de pizza</h2>
+    <form action="procesar_pedido.php" method="post">
+    <fieldset>
+        <legend>Su pedido</legend>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required><br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" placeholder="Contraseña" /><br>
+        <label for="direccion">Dirección de entrega:</label>
+        <input type="text" id="direccion" name="direccion" placeholder="Dirección de entrega" required><br>
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Número de teléfono" required><br>
+        <label for="correo electrónico">Correo Electronico:</label>
+        <input type="email" name="email" required placeholder="Correo Electronico" /><br>
+        <label type="edad">Edad</label>
+        <input type="number" min="18" max="120" step="5" name="edadNumber" placeholder="Edad" required />
+        <h2>Pedido de Pizza:</h2>
+        <label>Tamaño de la pizza:</label><br>
+        <input type="radio" id="pequena" name="tamano" value="Pequeña (8 pulgadas)" required>
+        <label for="pequena">Pequeña (8 pulgadas)</label><br>
+
+        <input type="radio" id="mediana" name="tamano" value="mediana(12 pulgadas)" required>
+        <label for="mediana">Mediana (12 pulgadas) </label><br>
+
+        <input type="radio" id="grande" name="tamano" value="grande (16 pulgadas)" required>
+        <label for="grande">Grande (16 pulgadas)</label><br>
+
+        <label>Elija su tipo de masa:</label><br>
+        <input type="radio" id="masa_fina" name="masa" value="Masa fina" required>
+        <label for="masa_fina">Masa fina</label><br>
+
+        <input type="radio" id="masa_normal" name="masa" value="Masa normal">
+        <label for="masa_normal">Masa normal</label><br>
+
+        <input type="radio" id="masa_gruesa" name="masa" value="Masa gruesa">
+        <label for="masa_gruesa">Masa gruesa</label><br>
+
+        <label>Selecciona tus ingredientes:</label><br>
+        <input type="checkbox" id="pepperoni" name="ingredientes" value="P">
+        <label for="pepperoni">Pepperoni</label><br>
+
+        <input type="checkbox" id="judias_verdes" name="ingredientes" value="JV">
+        <label for="judias_verdes">Judías verdes</label><br>
+
+        <input type="checkbox" id="jamon" name="ingredientes" value="J">
+        <label for="jamon">Jamón</label><br>
+
+        <input type="checkbox" id="alcaparras" name="ingredientes" value="A">
+        <label for="alcaparras">Alcaparras</label><br>
+
+        <input type="checkbox" id="aceitunas" name="ingredientes" value="AC">
+        <label for="aceitunas">Aceitunas</label><br>
+
+        <input type="checkbox" id="cebolla" name="ingredientes" value="C">
+        <label for="cebolla">Cebolla</label><br>
+
+        <input type="checkbox" id="salchicha" name="ingredientes" value="S">
+        <label for="salchicha">Salchicha</label><br>
+
+        <input type="checkbox" id="pina" name="ingredientes" value="P">
+        <label for="pina">Piña</label><br>
+
+        <label>Elija su salsa</label><br>
+        <input type="radio" id="tomate" name="salsa" value="T">
+        <label for="tomate">Tomate</label><br>
+        <input type="radio" id="barbacoa" name="salsa" value="B">
+        <label for="barbacoa">Barbacoa</label><br>
+
+        <input type="radio" id="pesto" name="salsa" value="P">
+        <label for="pesto">Pesto</label><br>
+
+        <input type="radio" id="sin_salsa" name="salsa" value="Sin">
+        <label for="sin_salsa">Sin salsa</label><br>
+
+        <label for="instrucciones">Instrucciones Especiales:</label><br>
+        <textarea id="instrucciones" name="instrucciones" rows="5" cols="80"></textarea><br>
+
+        <h2>Metodo de Pago</h2>
+        <label for="metodo_pago">Escoja el metodo del pago: </label>
+            <select name="metodo_pago">
+                <option value="Ef">Efectivo</option>
+                <option value="Tar">Tarjeta de credito o debito</option>
+                <option value="PP" selected>PayPal</option>
+                
+            </select>
+            <br />
+        <h2>Enviar Pedido:</h2>
+        <input type="checkbox" id="aceptar_condiciones" name="aceptar_condiciones" required>
+        <label for="aceptar_condiciones">Acepto las condiciones de servicio</label><br>
+
+        <input type="submit" value="Enviar Pedido">
+        <input type="reset" value="Resetear la información">
+        </form>
+        <br>
+        <a href="adjunto.html">Ver las condiciones del servicio</a>
+
+
+
+    </fieldset>
+</form>
+</body>
+
+</html>

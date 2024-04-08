@@ -1,0 +1,44 @@
+<!DOCTYPE videojuego SYSTEM "../actividad12/actividad12.dtd">
+<videojuego id="P69PO">
+    <nombre> The Last Of Us </nombre>
+    <fecha_de_creacion> 14 de junio 2013</fecha_de_creacion>
+    <nota> 10 </nota>
+    <programadores>
+        <programador id="p299">
+            <nombre>Travis McIntosh </nombre>
+            <DNI> 125898R </DNI>
+            <fecha_de_nacimiento>15.06.1987</fecha_de_nacimiento>
+            <direccion>
+                <tipo_de_via>qwerty</tipo_de_via>
+                <numero> 21 </numero>
+                <codigo_postal>26998</codigo_postal>
+                <pais>Estados Unidos</pais>
+                <cuidad>Miami</cuidad>
+            </direccion>
+        </programador>
+        <programador id="m983">
+            <nombre>Jason Gregory </nombre>
+            <DNI>121848P</DNI>
+            <fecha_de_nacimiento> 26.03.1885 </fecha_de_nacimiento>
+            <direccion>
+                <tipo_de_via> nomelase </tipo_de_via>
+                <numero> 12 </numero>
+                <codigo_postal> 26989 </codigo_postal>
+                <pais>Estados Unidos</pais>
+                <cuidad>Miami</cuidad>
+            </direccion>
+        </programador>
+    </programadores>
+    <compania id="u360">
+        <nombre>Otro nombre</nombre>
+        <nombre>Naughty Dog</nombre>
+        <NIF>12345678B</NIF>
+        <direccion>
+            <tipo_de_via> nomeylase </tipo_de_via>
+            <numero> 121 </numero>
+            <codigo_postal> 26989 </codigo_postal>
+            <pais>Estados Unidos</pais>
+            <cuidad>miami</cuidad>
+        </direccion>
+    </compania>
+</videojuego>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="actividad13.xsd">
+    <nombre>Biblioteca municipal</nombre>
+    <seccion>
+        <libro>
+            <titulo>Juegos del Hambre</titulo>
+            <autor>Suzanne Collins</autor>
+            <resumen>Una competición mortal entre jóvenes.</resumen>
+            <editorial>
+                <nombre>Ediciones Distópicas</nombre>
+                <ciudad>Madrid</ciudad>
+            </editorial>
+        </libro>
+    </seccion>
+</biblioteca>

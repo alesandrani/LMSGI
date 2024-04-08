@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videojuego [
+    <!ELEMENT videojuego (nombre+,fecha_de_creacion,nota,programadores,compania)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT fecha_de_creacion (#PCDATA)>
+    <!ELEMENT nota (#PCDATA)>
+    <!ELEMENT programadores (programador+)>
+
+    <!ELEMENT programador (nombre,DNI,fecha_de_nacimiento,direccion+)>
+    <!ELEMENT DNI (#PCDATA)>
+    <!ELEMENT fecha_de_nacimiento (#PCDATA)>
+
+    <!ELEMENT direccion (tipo_de_via,numero,codigo_postal,pais)>
+    <!ELEMENT tipo_de_via (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+
+    <!ELEMENT codigo_postal (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+
+    <!ELEMENT compania (nombre,NIF,direccion)>
+    <!ELEMENT NIF (#PCDATA)>
+
+
+    <!ATTLIST videojuego id ID #REQUIRED>
+    <!ATTLIST programador id ID #REQUIRED>
+    <!ATTLIST compania id ID #REQUIRED>
+]>
+
+<videojuego id="l1">
+    <nombre> The Last Of Us </nombre>
+    <fecha_de_creacion> 14 de junio 2013</fecha_de_creacion>
+    <nota> 10 </nota>
+    <programadores>
+        <programador id="p2">
+            <nombre>Travis McIntosh </nombre>
+            <DNI> 125898R </DNI>
+            <fecha_de_nacimiento>15.06.1987</fecha_de_nacimiento>
+            <direccion>
+                <tipo_de_via>qwerty</tipo_de_via>
+                <numero> 21 </numero>
+                <codigo_postal>26998</codigo_postal>
+                <pais>Estados Unidos</pais>
+            </direccion>
+        </programador>
+        <programador id="m3">
+            <nombre>Jason Gregory </nombre>
+            <DNI>121848P</DNI>
+            <fecha_de_nacimiento> 26.03.1885 </fecha_de_nacimiento>
+            <direccion>
+                <tipo_de_via> nomelase </tipo_de_via>
+                <numero> 12 </numero>
+                <codigo_postal> 26989 </codigo_postal>
+                <pais>Estados Unidos</pais>
+            </direccion>
+        </programador>
+    </programadores>
+    <compania id="u36">
+        <nombre>Naughty Dog</nombre>
+        <NIF>12345678B</NIF>
+        <direccion>
+            <tipo_de_via> nomeylase </tipo_de_via>
+            <numero> 121 </numero>
+            <codigo_postal> 26989 </codigo_postal>
+            <pais>Estados Unidos</pais>
+        </direccion>
+    </compania>
+</videojuego>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videojuego id="1">
+    <nombre> The Last Of Us </nombre>
+    <fecha_de_creacion> 14 de junio 2013</fecha_de_creacion>
+    <nota> 10 </nota>
+    <programadores>
+        <programador id="2">
+            <nombre>Travis McIntosh </nombre>
+            <DNI> 125898R </DNI>
+            <fecha_de_nacimiento>15.06.1987</fecha_de_nacimiento>
+            <direccion>
+                <tipo_de_via>  qwerty  </tipo_de_via>
+                <numero> 21 </numero>
+                <codigo_postal> 26998 </codigo_postal>
+                <pais>Estados Unidos</pais>
+            </direccion>
+        </programador>
+        <programador id="3">
+            <nombre>Jason Gregory </nombre>
+            <DNI>121848P </DNI>
+            <fecha_de_nacimiento> 26.03.1885 </fecha_de_nacimiento>
+            <direccion>
+                <tipo_de_via> nomelase </tipo_de_via>
+                <numero> 12 </numero>
+                <codigo_postal> 26989 </codigo_postal>
+                <pais>Estados Unidos</pais>
+            </direccion>
+        </programador>
+    </programadores>
+    <compania id="36">
+        <nombre>Naughty Dog</nombre>
+        <NIF>12345678B</NIF>
+        <direccion>
+            <tipo_via>Avenida</tipo_via>
+            <nombre>weteh 456</nombre>
+            <codigo_postal>54321</codigo_postal>
+            <pais>Estados Unidos</pais>
+        </direccion>
+    </compania>    
+    <pagina_web>
+         <![CDATA[
+         <html>
+         <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style type="text/css">
+    div{
+        text-align: center;
+    }
+</style>
+<body>
+    <h1 style="text-align: center"> Bienvenido al Videojuego</h1>
+                <h2 style="color: red; text-align: center;">The Last Of Us</h2>
+                <div>
+                <img src="https://i.blogs.es/d8b5a5/010313_thelastofus-primer/650_1200.jpg" >
+                </div>
+</body>
+</html>
+]]>
+    </pagina_web>
+</videojuego>
+            

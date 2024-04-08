@@ -1,0 +1,32 @@
+.blanco{
+    color: ivory;
+    background-color: rgba(39, 37, 37, 0.795);
+}
+.azul{
+    color: blue;
+    background-color: rgb(190, 29, 29);
+}
+header{
+    color: goldenrod;
+    background-color: black;
+}
+footer{
+    color: aliceblue;
+    background-color: rgb(6, 52, 138);
+}
+a{
+    color: aliceblue;
+}
+#h2especial{
+    color: darkolivegreen;
+}
+#h3especial{
+    color: darkolivegreen;
+}
+li.blue{
+    color: blue;
+    
+}
+li.derecha{
+    text-align: right;
+}

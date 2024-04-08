@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://imgv3.fotor.com/images/gallery/Red-purple-gradient-background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'Arial', sans-serif;
+}
+img {
+    max-width: 60%;
+    height: auto;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+section {
+    padding: 30px;
+    color: #fff;
+}
+
+#seccion1 h1 {
+    font-size: 10px;
+}
+
+#seccion2 h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.texto-pequeno {
+    font-size: 14px;
+}
+
+.texto-mediano {
+    font-size: 18px;
+}
+
+.texto-grande {
+    font-size: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+section .art2{
+    color: blue;
+}
+
+.seccion1 img{
+
+}

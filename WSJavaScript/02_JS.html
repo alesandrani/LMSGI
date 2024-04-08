@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            border: 1px solid black;
+            display: inline-block;
+        }
+    </style>
+    <script>
+        //las funciones en jS tampoco tienen tipo por lo que no hay que poner el tipo de retorno
+        //empizan con la palabra function y luego el nombre de la funcion 
+        function funcion1(){
+            console.log("Funcion invocada")
+            alert("se ha invocado la funcion")
+        }
+
+        function ponerColorVerdeBody(){
+            document.body.style.backgroundColor = "green"
+        }
+        function ponerColorBlancoFondo(){
+            document.body.style.background = "white"
+        }
+    </script>
+</head>
+<body>
+    <h1> Eventos con JS</h1>
+    <button onclick="console.log('me has pulsado')">Pulsame</button>
+    <button onclick="alert('me has pulsado')"> Alerta</button>
+    <h1 onmouseover="console.log('has pasado por encima')"
+    onmouseleave="console.log('has salido del texto')"
+    onclick="console.log('me has pulsado')"> Pasame por encima</h1>
+    <br/>
+    <!--Es muy habitual usar funciones para ejecutar el codigo JS-->
+    <button onclick="funcion1()"> invocar la funcion</button>
+    <button onclick="funcion1()"> invocamos de nuevo la funcion</button>
+    <br/>
+    <h1 onmouseover="ponerColorVerdeBody()"
+    onmouseleave="ponerColorBlancoFondo()">Pasa por encima y flipa</h1>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <nombre>EmpresaXYZ</nombre>
+    <NIF>123456789</NIF>
+    <espanola>true</espanola>
+    <capitalSocial>
+        <euros>100000.50</euros>
+    </capitalSocial>
+    <direccion>
+        <tipoVia>Avenida</tipoVia>
+        <nombreVia>Principal</nombreVia>
+        <CP>28001</CP>
+        <pais>ESPAÑA</pais>
+    </direccion>
+    <empleados>
+        <empleado>
+            <nombre>Juan</nombre>
+            <apellidos>Pérez Gómez</apellidos>
+            <DNI>987654321</DNI>
+            <extranjero>false</extranjero>
+            <fechaNacimiento>1990-05-15</fechaNacimiento>
+            <salario>50000.75</salario>
+            <direccion>
+                <stringDireccion>C\Gran Vía 67, Madrid</stringDireccion>
+                <pais>ESPAÑA</pais>
+            </direccion>
+            <casado>true</casado>
+        </empleado>
+        <empleado>
+            <nombre>Marta</nombre>
+            <apellidos>Ruiz López</apellidos>
+            <DNI>876543210</DNI>
+            <extranjero>false</extranjero>
+            <fechaNacimiento>1988-08-22</fechaNacimiento>
+            <salario>45000.25</salario>
+            <direccion>
+                <stringDireccion>C\Calle Mayor 45, Barcelona</stringDireccion>
+                <pais>ESPAÑA</pais>
+            </direccion>
+            <casado>false</casado>
+        </empleado>
+    </empleados>
+</empresa>
